@@ -19,6 +19,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="apple-touch-icon" href="images/favicon.png">
+  
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -39,12 +42,7 @@
   <nav class="navbar">
     <div class="container nav-inner">
       <a href="index.html" class="brand-logo">
-        <div class="brand-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-            <polyline points="9 22 9 12 15 12 15 22"></polyline>
-          </svg>
-        </div>
+        <img src="images/logo.png" alt="Huatulcostays" class="brand-img" width="48" height="48">
         <div class="brand-text">
           <span class="brand-title">Huatulco</span>
           <span class="brand-sub">stays</span>
@@ -594,6 +592,33 @@
           </p>
 
           <div class="contact-info-list">
+            <div class="contact-info-item" style="background: rgba(10,37,64,0.03); padding: 0.85rem 1rem; border-radius: var(--radius-md); border-left: 3px solid var(--color-primary);">
+              <div class="contact-info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.3">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div>
+              <div class="contact-info-text">
+                <strong>Titular / Razón Social</strong>
+                <span style="font-weight: 700; color: var(--color-primary);">ROLANDO DIAZ CEBALLOS CORRAL</span>
+                <span style="font-size: 0.85rem; color: var(--color-zinc-600);">RFC: DICR980509AU0</span>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.3">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-info-text">
+                <strong>Dirección de la Empresa en Torreón</strong>
+                <span>Circuito San Quintín 27, Colonia Las Trojes, Torreón, Coahuila de Zaragoza, C.P. 27010, México.</span>
+              </div>
+            </div>
+
             <div class="contact-info-item">
               <div class="contact-info-icon">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.3">
@@ -601,20 +626,8 @@
                 </svg>
               </div>
               <div class="contact-info-text">
-                <strong>Teléfono de Empresa (Titular)</strong>
+                <strong>Teléfono de la Empresa</strong>
                 <span><a href="https://wa.me/528134104030" target="_blank" rel="noopener noreferrer" style="color: var(--color-emerald); font-weight: 700;">+52 81 3410 4030</a></span>
-              </div>
-            </div>
-
-            <div class="contact-info-item">
-              <div class="contact-info-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.3">
-                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
-                </svg>
-              </div>
-              <div class="contact-info-text">
-                <strong>WhatsApp de Reservaciones</strong>
-                <span><a href="https://wa.me/529581221111" target="_blank" rel="noopener noreferrer" style="color: var(--color-emerald); font-weight: 700;">+52 958 122 11 11</a></span>
               </div>
             </div>
 
@@ -634,25 +647,24 @@
             <div class="contact-info-item">
               <div class="contact-info-icon">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.3">
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <polyline points="12 6 12 12 16 14"></polyline>
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
                 </svg>
               </div>
               <div class="contact-info-text">
-                <strong>Horario de Reservaciones</strong>
-                <span>Lunes a Domingo: 8:00 AM – 10:00 PM</span>
+                <strong>WhatsApp de Reservaciones (Huatulco)</strong>
+                <span><a href="https://wa.me/529581221111" target="_blank" rel="noopener noreferrer" style="color: var(--color-emerald); font-weight: 700;">+52 958 122 11 11</a></span>
               </div>
             </div>
 
             <div class="contact-info-item">
               <div class="contact-info-icon">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.3">
-                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                  <circle cx="12" cy="10" r="3"></circle>
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                  <polyline points="9 22 9 12 15 12 15 22"></polyline>
                 </svg>
               </div>
               <div class="contact-info-text">
-                <strong>Dirección del Complejo</strong>
+                <strong>Ubicación de los Alojamientos</strong>
                 <span>Santa María Huatulco, Oaxaca, C.P. 70989, México</span>
               </div>
             </div>
@@ -700,12 +712,7 @@
       <div class="footer-top">
         <div class="footer-brand">
           <div class="brand-logo" style="margin-bottom: 0.75rem;">
-            <div class="brand-icon" style="background: rgba(255,255,255,0.12); color: var(--color-accent-light);">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
-                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                <polyline points="9 22 9 12 15 12 15 22"></polyline>
-              </svg>
-            </div>
+            <img src="images/logo.png" alt="Huatulcostays" class="brand-img" width="48" height="48">
             <div class="brand-text">
               <span class="brand-title" style="color: #fff;">Huatulco</span>
               <span class="brand-sub" style="color: var(--color-accent-light);">stays</span>
@@ -727,24 +734,33 @@
           </ul>
         </div>
 
+        <div class="footer-col" style="min-width: 250px;">
+          <h4>Datos de la Empresa</h4>
+          <ul class="footer-links" style="font-size: 0.85rem; line-height: 1.5; color: rgba(255,255,255,0.7);">
+            <li><strong style="color: #fff;">Titular / Razón Social:</strong><br>ROLANDO DIAZ CEBALLOS CORRAL</li>
+            <li><strong style="color: #fff;">RFC:</strong> DICR980509AU0</li>
+            <li><strong style="color: #fff;">Teléfono de la Empresa:</strong><br><a href="https://wa.me/528134104030" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent-light); font-weight: 700;">+52 81 3410 4030</a></li>
+            <li><strong style="color: #fff;">Dirección en Torreón:</strong><br>Circuito San Quintín 27, Colonia Las Trojes, Torreón, Coahuila de Zaragoza, C.P. 27010, México.</li>
+          </ul>
+        </div>
+
         <div class="footer-col">
           <h4>Legal & Contacto</h4>
           <ul class="footer-links">
             <li><a href="privacidad.html">Política de Privacidad</a></li>
             <li><a href="terminos.html">Términos y Condiciones</a></li>
-            <li><a href="https://wa.me/528134104030" target="_blank" rel="noopener noreferrer">Teléfono Empresa (+52 81 3410 4030)</a></li>
             <li><a href="https://wa.me/529581221111" target="_blank" rel="noopener noreferrer">WhatsApp Reservaciones</a></li>
             <li><a href="mailto:rolando@huatulcostays.com">rolando@huatulcostays.com</a></li>
           </ul>
         </div>
       </div>
 
-      <div class="footer-bottom">
+      <div class="footer-bottom" style="display: flex; flex-direction: column; gap: 0.5rem; text-align: center;">
         <div>
-          © 2026 Huatulcostays. Operado por <strong>ROLANDO DIAZ CEBALLOS CORRAL</strong> (RFC: <strong>DICR980509AU0</strong>). Todos los derechos reservados.
+          © 2026 Huatulcostays. Titular: <strong>ROLANDO DIAZ CEBALLOS CORRAL</strong> (RFC: <strong>DICR980509AU0</strong>) · Teléfono Empresa: <strong>+52 81 3410 4030</strong>
         </div>
-        <div>
-          Circuito San Quintín 27, Col. Las Trojes, Torreón, Coahuila | Santa María Huatulco, Oaxaca, México.
+        <div style="font-size: 0.85rem; color: rgba(255,255,255,0.65);">
+          Dirección: Circuito San Quintín 27, Colonia Las Trojes, Torreón, Coahuila de Zaragoza, C.P. 27010, México.
         </div>
       </div>
     </div>
