@@ -5,7 +5,7 @@ Sitio web corporativo independiente de hospitalidad, concierge y atención al hu
 Este proyecto está **100% desacoplado** del sistema hotelero interno para servir como entidad formal, limpia y verificable ante Meta Business / WhatsApp Business API.
 
 ## Estructura de Archivos
-- `index.html`: Landing page principal ejecutiva con llamadas a la acción directas hacia WhatsApp (`+52 958 131 44 44`).
+- `index.html`: Landing page principal ejecutiva con llamadas a la acción directas hacia WhatsApp (`+52 958 122 11 11`).
 - `privacidad.html`: Política de Privacidad conforme a la LFPDPPP y estándares de Meta.
 - `terminos.html`: Términos y Condiciones del Servicio.
 - `styles.css`: Sistema de diseño moderno, responsive y ultraligero.
